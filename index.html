@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deeksha | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f5f7ff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6a5acd, #8a7de8);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #5b4bc4;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff6b81;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        section h2 {
+            color: #5b4bc4;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .about p {
+            font-size: 17px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill {
+            background: #eeeaff;
+            color: #5b4bc4;
+            padding: 10px 18px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .interests {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+
+        .interest-card {
+            background: #f7f5ff;
+            padding: 25px;
+            text-align: center;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+
+        .interest-card:hover {
+            transform: translateY(-5px);
+            background: #eeeaff;
+        }
+
+        .interest-card h3 {
+            color: #5b4bc4;
+            margin-bottom: 8px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            background: #29234a;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                margin: 0 7px;
+                font-size: 14px;
+            }
+
+            section {
+                margin: 20px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Hi, I'm Deeksha 👋</h1>
+        <p>B.Tech Student | Learner | Tech Enthusiast</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+
+        <p>
+            Hello! I'm Deeksha, born in Dharwad and currently pursuing
+            my B.Tech at Jain Institute of Technology, Davangere.
+        </p>
+
+        <br>
+
+        <p>
+            I am a simple, friendly and hardworking person. I enjoy
+            learning new things, especially topics related to biology,
+            the solar system and technology. Currently, I am focusing
+            on improving my technical skills and exploring the world
+            of technology.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Programming</div>
+            <div class="skill">Problem Solving</div>
+            <div class="skill">Learning New Technologies</div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests">
+        <h2>My Interests</h2>
+
+        <div class="interests">
+
+            <div class="interest-card">
+                <h3>🧬 Biology</h3>
+                <p>I enjoy learning interesting things about living organisms and science.</p>
+            </div>
+
+            <div class="interest-card">
+                <h3>🌌 Solar System</h3>
+                <p>I am curious about planets, stars and the mysteries of space.</p>
+            </div>
+
+            <div class="interest-card">
+                <h3>💻 Technology</h3>
+                <p>I am currently improving my technical and programming skills.</p>
+            </div>
+
+            <div class="interest-card">
+                <h3>💃 Dancing</h3>
+                <p>Dancing is one of my favorite ways to enjoy my free time.</p>
+            </div>
+
+            <div class="interest-card">
+                <h3>🎵 Music</h3>
+                <p>I love listening to music and relaxing with my favorite songs.</p>
+            </div>
+
+            <div class="interest-card">
+                <h3>👭 Friends</h3>
+                <p>I enjoy spending quality time with my friends.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+
+        <p>📧 Email: your-email@example.com</p>
+        <p>📱 Phone: +91 XXXXX XXXXX</p>
+        <p>📍 Location: Karnataka, India</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Deeksha | Personal Portfolio</p>
+    </footer>
+
+</body>
+</html>
